@@ -1,0 +1,62 @@
+
+:root{--azul:#215372;--amarelo:#E2C339;--petroleo:#1A6987;--grafite:#1a1a1a;--cinza:#595959;--off:#F2F2F0}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--grafite);line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+a{color:var(--petroleo)} h1,h2,h3,h4{color:var(--azul);line-height:1.2}
+.topo{border-bottom:3px solid var(--amarelo);background:#fff;position:sticky;top:0;z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;gap:12px;flex-wrap:wrap}
+.nav nav{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.nav a{text-decoration:none;color:var(--grafite);font-size:15px}
+.btn{display:inline-block;background:var(--azul);color:#fff!important;padding:12px 22px;border-radius:6px;text-decoration:none;border:0;font-size:16px;cursor:pointer}
+.btn-alt{background:var(--amarelo);color:var(--grafite)!important}
+.btn-sm{padding:8px 14px;font-size:14px}
+.hero{background:var(--azul);color:#fff;padding:64px 0}
+.hero h1{color:#fff;font-size:38px;margin-bottom:12px}
+.hero .sub{font-size:19px;max-width:720px;opacity:.95}
+.hero .ctas{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+.hero-int{padding:40px 0}
+.hero .bc{font-size:13px;opacity:.8;margin-bottom:10px}
+.hero .bc a{color:#fff}
+.loc{font-weight:400;font-size:60%;display:block;opacity:.85}
+.numeros{background:var(--off);padding:26px 0;border-bottom:3px solid var(--amarelo)}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.numeros strong{display:block;font-size:26px;color:var(--azul)}
+.numeros span{font-size:14px;color:var(--cinza)}
+.sec{padding:44px 0}
+.sec h2{margin-bottom:18px;font-size:27px}
+.card{background:#fff;border:1px solid #e3e3e0;border-top:3px solid var(--amarelo);border-radius:8px;padding:18px}
+.card h3{font-size:17px;margin-bottom:8px}
+.card .mais{font-size:14px}
+.card-link{display:block;padding:16px;border:1px solid #e3e3e0;border-radius:8px;text-decoration:none;font-weight:bold}
+.passos{padding-left:20px;display:grid;gap:10px;max-width:720px}
+.cta-banner{background:var(--petroleo);color:#fff;padding:36px 0;text-align:center}
+.cta-banner h2{color:#fff;margin-bottom:10px}
+.depo{background:var(--off);padding:44px 0;text-align:center}
+.depo blockquote{font-size:21px;color:var(--azul);max-width:760px;margin:0 auto 10px;font-style:italic}
+.depo .autor{font-weight:bold}
+.depo .clientes{color:var(--cinza);font-size:14px;margin-top:8px}
+details{border:1px solid #e3e3e0;border-radius:8px;padding:14px 16px;margin-bottom:10px}
+summary{font-weight:bold;color:var(--azul);cursor:pointer}
+details p{margin-top:10px}
+.form-box{background:var(--off);border-radius:10px;padding:24px;max-width:640px}
+.form-box label{display:block;margin:10px 0;font-size:14px;font-weight:bold}
+.form-box input,.form-box textarea{width:100%;padding:11px;border:1px solid #ccc;border-radius:6px;font:inherit;margin-top:4px}
+.form-box .mini{font-size:12px;color:var(--cinza);margin-top:8px}
+.case{border-left:4px solid var(--amarelo);padding:6px 0 6px 18px;margin-bottom:26px}
+.artigo p{margin-bottom:14px;max-width:760px}
+.artigo h2{margin:24px 0 10px}
+.texto-legal p{margin-bottom:12px;max-width:800px}
+.texto-legal h2{margin:22px 0 8px;font-size:20px}
+.rodape{background:var(--azul);color:#fff;padding:38px 0 12px;margin-top:40px}
+.rodape h4{color:var(--amarelo);margin-bottom:8px}
+.rodape a{color:#fff;display:block;text-decoration:none;margin-bottom:6px;font-size:14px}
+.rodape p{font-size:14px;opacity:.9;margin-bottom:6px}
+.legal{border-top:1px solid rgba(255,255,255,.25);margin-top:22px;padding-top:12px}
+.legal p{font-size:12px;opacity:.75}
+.zap-flutuante{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;padding:13px 18px;border-radius:30px;text-decoration:none;font-weight:bold;box-shadow:0 4px 14px rgba(0,0,0,.25);z-index:99}
+@media(max-width:640px){.hero h1{font-size:28px}}
+.hero .btn{background:var(--amarelo);color:var(--grafite)!important}
+.hero .btn-alt{background:transparent;border:2px solid #fff;color:#fff!important}
